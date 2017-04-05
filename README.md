@@ -1,4 +1,4 @@
-#SiTF 2017 Team ChronosX
+### SiTF 2017 Team ChronosX
 
 Hello, we are team ChronosX from Dunman High School and this is our entry for SiTF Awards 2017. It is an application that works as a student-centric scheduler, consisting of unique features like the test results analysis function which gives an overall trend of the student's academic abilities and areas for improvements.
 

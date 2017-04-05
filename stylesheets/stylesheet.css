@@ -1,6 +1,6 @@
 @media only screen and (max-width:374px) {
 .navbar {
-	display: none;
+    display: none;
 }
 
 /* The side navigation menu */
@@ -51,7 +51,7 @@
 
 @media only screen and (min-width:375px) and (max-width:768px) {
 .navbar {
-	display: none;
+    display: none;
 }
 
 /* The side navigation menu */
@@ -101,10 +101,10 @@
 }
 @media only screen and (min-width:769px) {
 .sidenav {
-	display: none;
+    display: none;
 }
 .toggle-sidenav {
-	display: none;
+    display: none;
 }
 
 .navlist {
@@ -121,7 +121,7 @@
 
 .navlist-item .navlink {
     display: block;
-    color: white;
+    color: #818181;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

@@ -18,9 +18,9 @@ Chrome only for Android and Windows
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Chen Xinpeng** - *Backend Programming* -
+* **Eiffel Chong** - *Frontend Programming* - [Axiry](https://github.com/Axiry)
+* **Seng Sockhian (Xin Shuxian)** - *Documentation and design* -
 
 ## Acknowledgments
 

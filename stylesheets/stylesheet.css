@@ -24,7 +24,8 @@
     font-size: 18px;
     color: #EBEAEA;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -75,7 +76,8 @@
     font-size: 18px;
     color: #EBEAEA;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -125,10 +127,10 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 .navlist-item .navlink:hover {
     background-color: #111;
 }
-
 
 }

@@ -1,34 +1,51 @@
 <!DOCTYPE html>
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<title></title>
-		<link rel="stylesheet" href="style.css" charset="utf-8">
+		<link rel="stylesheet" href="./stylesheets/stylesheet.css" charset="utf-8">
+		<link rel="stylesheet" href="./stylesheets/reset.css" charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	</head>
 	<main>
 		<header>
 			<div class="nav">
+			<div class="appName"></div>
+				<!-- Navbar, show only when big screen -->
 				<div class="navbar">
-					 <ul>
-					 	<li class="active">View Tasks</li>
-					 	<li>View Events</li>
-					 	<li>Calendar</li>
-					 	<li>Test Analysis</li>
-					 	<div class="add">
-					 		<span class=""></span>
-					 	</div>
-					 </ul>
+					 <ul class="navlist">
+					 	<li class="active navlist-item"><a class="navlink" href="task.html">Tasks</a></li>
+					 	<li class="inactive navlist-item"><a class="navlink" href="event.html">Events</a></li>
+					 	<li class="inactive navlist-item"><a class="navlink" href="calendar.html">Calendar</a></li>
+					 	<li class="inactive navlist-item"><a class="navlink" href="test.html">Test Analysis</a></li>
+					 </ul>					 	
+					 <div class="add">
+						<a href="add.html">
+							<span class="add-button"></span>
+						</a>
+					 </div>
 				</div>
-				<div class="viewoption">
-					<ul>
-						<li>By Time Added</li>
-						<li>Smart Order</li>
-					</ul>
+				<!-- Sidenav, show only when small screen -->
+				<div id="sideNav" class="sidenav">
+				<div class="navtitle"></div>
+  					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  					<a href="task.html">View tasks</a>
+  					<a href="event.html">View Events</a>
+  					<a href="calendar.html">Calendar</a>
+  					<a href="test.html">Test analysis</a>
 				</div>
+				<span class="toggle-sidenav" onclick="openNav()">
+					<img src="./images/icons/menu.svg">
+				</span>
+			</div>
+			<div class="title">
+				<h1>Academic Analysis</h1>
 			</div>
 		</header>
-		<body>
+		<body id="main">
 			
 		</body>
 	</main>
+	<script src="./scripts/task.js"></script>
 </html>
